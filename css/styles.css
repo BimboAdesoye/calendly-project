@@ -11,6 +11,7 @@
   box-sizing: border-box;
 }
 
+/* Typography */
 html {
   font-size: 100%;
 }
@@ -28,6 +29,7 @@ body {
   color: var(--color-body);
   font-size: 1.125rem;
   line-height: 1.4;
+  letter-spacing: 0.8px;
 }
 
 h1,
@@ -71,4 +73,29 @@ h5 {
   h3 {
     font-size: 2.36875rem;
   }
+}
+/* End of Typography */
+
+/* Links */
+a {
+  text-decoration: none;
+}
+
+.arrow-link {
+  display: flex;
+  align-items: center;
+  line-height: 1.6;
+}
+
+.link-arrow {
+  color: var(--color-primary);
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-right: 8px;
+}
+
+.arrow {
+  color: var(--color-primary);
+  width: 20px;
+  height: 20px;
 }
