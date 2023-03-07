@@ -32,9 +32,9 @@ body {
   font-family: "Gilroy-Medium", sans-serif;
   font-family: "Gilroy-Regular", sans-serif;
   color: var(--color-body);
-  font-size: 1.125rem;
+  font-size: 1.05rem;
+  font-weight: 500;
   line-height: 1.4;
-  letter-spacing: 0.8px;
 }
 
 h1,
@@ -67,7 +67,8 @@ h4 {
 }
 
 h5 {
-  font-size: 1.25rem;
+  font-size: 1.1rem;
+  letter-spacing: 0.5px;
 }
 
 @media screen and (min-width: 992px) {
@@ -178,5 +179,14 @@ a {
   margin-top: 0;
   font-size: 0.9rem;
 }
-
 /* End of Input-group */
+
+/* Media Objects */
+.media {
+  display: flex;
+}
+
+.media__body {
+  margin-left: 12px;
+}
+/* Media Objects */
