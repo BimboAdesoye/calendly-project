@@ -234,3 +234,39 @@ a {
   margin-left: 35px;
 }
 /* End of Plans */
+
+/* Quotes */
+.quote__text {
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.4;
+  color: var(--color-headings);
+  letter-spacing: 0;
+  margin-bottom: 40px;
+}
+
+.quote__text::before {
+  content: open-quote;
+}
+
+.quote__text::after {
+  content: close-quote;
+}
+
+.quote__image {
+  margin-bottom: 15px;
+}
+
+.quote__image img {
+  width: 150px;
+}
+
+.quote__author {
+  margin-bottom: 40px;
+}
+
+.quote__author-name {
+  font-size: 1.35rem;
+}
+
+/* End of Quotes */
