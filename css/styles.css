@@ -32,9 +32,10 @@ body {
   font-family: "Gilroy-Medium", sans-serif;
   font-family: "Gilroy-Regular", sans-serif;
   color: var(--color-body);
-  font-size: 1.05rem;
+  font-size: 1.03rem;
   font-weight: 500;
   line-height: 1.4;
+  letter-spacing: 0.7px;
 }
 
 h1,
@@ -95,7 +96,7 @@ a {
 
 .link-arrow {
   color: var(--color-primary);
-  font-size: 0.9rem;
+  font-size: 1rem;
   font-weight: 600;
   margin-right: 8px;
 }
@@ -189,4 +190,47 @@ a {
 .media__body {
   margin-left: 12px;
 }
+
+.media__image {
+  margin-top: 3px;
+}
 /* Media Objects */
+
+/* Plans */
+.plan {
+  border: 1px solid rgb(231, 237, 246);
+  box-shadow: rgb(71 103 136 / 5%) 0px 6px 10px,
+    rgb(71 103 136 / 4%) 0px 3.99006px 4.45557px;
+  padding: 50px 35px;
+  border-radius: 10px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.plan__image {
+  max-width: 450px;
+  margin: 0 auto;
+  display: block;
+}
+
+.plan__image img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.plan__media {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 40px;
+}
+
+.plan__link {
+  margin-left: 35px;
+}
+/* End of Plans */
