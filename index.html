@@ -10,39 +10,22 @@
     <title>Document</title>
   </head>
   <body>
-    <blockquote class="quote">
-      <p class="quote__text">
-        Calendly has increased meetings with customers by 216% for our Vonage
-        team.
-      </p>
-      <footer>
-        <div class="quote__image">
-          <img src="images/VonageLogo.svg" alt="" />
-        </div>
-        <div class="quote__author">
-          <h5 class="quote__author-name">Chris Williams</h5>
-          <p>Head of Customer Success UK/EMEA</p>
-        </div>
-        <div class="arrow-link">
-          <a href="#" class="link-arrow">Read more</a>
-          <svg
-            class="arrow"
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-          >
-            <line x1="5" y1="12" x2="19" y2="12"></line>
-            <polyline points="12 5 19 12 12 19"></polyline>
-          </svg>
-        </div>
-      </footer>
-    </blockquote>
+    <div class="collapsible collapsible--expanded">
+      <header class="collapsible__header">
+        <h5>Item 1</h5>
+        <img
+          src="images/arrow-expander-right-svgrepo-com.svg"
+          alt=""
+          class="collapsible__image"
+        />
+      </header>
+      <div class="collapsible__content">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad,
+          voluptate.
+        </p>
+      </div>
+    </div>
     <script src="index.js"></script>
   </body>
 </html>
