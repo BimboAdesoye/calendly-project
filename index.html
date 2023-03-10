@@ -10,43 +10,44 @@
     <title>Document</title>
   </head>
   <body>
-    <nav class="nav">
-      <div class="logo">
-        <img src="images/calendly-logo.svg" alt="" class="logo-img" />
-      </div>
-      <ul class="nav-links">
-        <li class="nav-list"><a href="#">Product</a></li>
-        <div class="collapsible collapsible--expanded">
-          <header class="collapsible__header nav-header">
-            <li><a href="#">Solutions</a></li>
-            <img
-              src="images/arrow-expander-right-svgrepo-com.svg"
-              alt=""
-              class="collapsible__image"
-            />
-          </header>
-          <div class="collapsible__content">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad,
-              voluptate.
-            </p>
+    <section id="hero" class="block">
+      <div class="container">
+        <div class="hero">
+          <div class="hero__content">
+            <h1 class="hero__header">
+              Easy scheduling <span class="color">ahead</span>
+            </h1>
+            <div class="hero__text">
+              <p class="hero__statement">
+                Calendly is your scheduling automation platform for eliminating
+                the back-and-forth emails for finding the perfect time — and so
+                much more.
+              </p>
+              <div class="hero__input">
+                <div class="input-wrap hero__input-wrap">
+                  <div class="input-group">
+                    <input
+                      type="email"
+                      name=""
+                      id=""
+                      class="input"
+                      placeholder="Enter your email"
+                    />
+                  </div>
+                  <button class="btn btn--primary input-button">Sign up</button>
+                </div>
+                <p class="hero__callout">
+                  Create your free account. No credit card required.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="hero__image image">
+            <img src="images/Homepage-Hero-new.webp" alt="" />
           </div>
         </div>
-        <li class="nav-list"><a href="#">Teams & Companies</a></li>
-        <li class="nav-list"><a href="#">Pricing</a></li>
-        <li class="nav-list"><a href="#">Resources</a></li>
-      </ul>
-      <div class="nav-log-in">
-        <img class="nav-icon" src="images/login-icon.svg" alt="" />
-        <a href="#">Log In</a>
-        <button class="btn btn--primary nav-btn">Get started</button>
-        <div class="burger">
-          <div class="line1"></div>
-          <div class="line2"></div>
-          <div class="line3"></div>
-        </div>
       </div>
-    </nav>
+    </section>
     <script src="index.js"></script>
   </body>
 </html>
