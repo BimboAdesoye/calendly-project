@@ -617,3 +617,76 @@ a {
   }
 }
 /*End of Simplified Scheduling */
+
+/* Testimonial */
+#testimonial {
+  background-color: rgb(247, 250, 255);
+  background-position: center bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.testimonial--container {
+  padding-top: 64px;
+  padding-bottom: 64px;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.testimonial {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+.testimonial__image {
+  justify-content: flex-end;
+  width: 50%;
+  display: flex;
+  max-width: 690px;
+  max-height: 500px;
+  height: auto;
+}
+
+.testimonial__content {
+  width: 50%;
+  padding-left: 112px;
+}
+
+@media screen and (max-width: 992px) {
+  #testimonial .block {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .testimonial {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+  }
+
+  .testimonial__image {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-width: auto;
+    max-width: 100%;
+  }
+
+  .testimonial__image img {
+    max-width: 450px;
+  }
+
+  .testimonial__content {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-width: auto;
+    max-width: 100%;
+  }
+}
+
+/*End of Testimonial */
