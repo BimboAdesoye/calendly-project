@@ -91,6 +91,10 @@ h5 {
   h3 {
     font-size: 2.7rem;
   }
+
+  h4 {
+    font-size: 2.1rem;
+  }
 }
 /* End of Typography */
 
@@ -328,6 +332,14 @@ a {
   max-width: 1200px;
   padding-top: 0px;
   padding-bottom: 56px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.container2 {
+  padding-top: 64px;
+  padding-bottom: 64px;
+  max-width: 1200px;
   width: 100%;
   margin: 0 auto;
 }
@@ -688,5 +700,91 @@ a {
     max-width: 100%;
   }
 }
-
 /*End of Testimonial */
+
+/* Security Section */
+.security {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.security__content {
+  width: 50%;
+  padding-left: 112px;
+}
+
+.security__image {
+  width: 50%;
+}
+
+.security__heading {
+  margin-bottom: 32px;
+  line-height: 1.4;
+}
+
+.security__media {
+  width: 100%;
+  height: 100%;
+  max-width: 469px;
+  margin-bottom: 16px;
+}
+
+.security__media .media {
+  margin-bottom: 24px;
+}
+
+.security__media .media .media__image {
+  width: 3rem;
+}
+
+.security__media .media .media__body p {
+  line-height: 1.5;
+}
+
+@media screen and (max-width: 992px) {
+  .security {
+    flex-direction: column-reverse;
+    gap: 24px;
+  }
+
+  .security__content {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+  .security__heading {
+    margin-bottom: 50px;
+  }
+
+  .security__media {
+    max-width: 100%;
+    min-width: auto;
+    flex-basis: auto;
+    margin-bottom: 32px;
+  }
+
+  .security__media .media {
+    margin-bottom: 18px;
+  }
+
+  .security__media .media .media__image {
+    width: 1.7rem;
+  }
+
+  .security__image {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-width: auto;
+    max-width: 100%;
+  }
+
+  .security__image img {
+    max-width: 450px;
+  }
+}
+/* End of Security Section */
