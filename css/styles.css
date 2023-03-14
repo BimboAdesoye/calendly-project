@@ -788,3 +788,47 @@ a {
   }
 }
 /* End of Security Section */
+
+/* Callout section */
+#callout {
+  background-color: rgb(247, 250, 255);
+  background-position: center bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.callout {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 24px;
+  min-height: 222px;
+}
+
+.callout__body {
+  width: 100%;
+  max-width: 770px;
+  height: auto;
+}
+
+.callout__body h2 {
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+.callout-btns {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+}
+
+@media screen and (max-width: 992px) {
+  .callout__body h2 {
+    font-size: 2.2rem;
+  }
+}
+/* End of Callout section */
