@@ -911,3 +911,305 @@ a {
   }
 }
 /* End of Integrations section */
+
+/* Footer */
+.footer__container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.footer {
+  width: 100%;
+  display: flex;
+  padding-top: 120px;
+}
+
+.footerx {
+  height: 100%;
+  width: 260px;
+  min-width: 200px;
+}
+
+.footerx__heading {
+  line-height: 1.4;
+  text-align: left;
+  padding-bottom: 16px;
+  font-weight: 900;
+}
+
+.footerx p {
+  margin-bottom: 56px;
+}
+
+.footerx--accent {
+  width: 255px;
+  height: auto;
+}
+
+.footerx--accent .dropdown {
+  border: 1px solid rgb(227, 227, 227);
+  padding: 10px 10px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 700;
+  border-radius: 8px;
+  min-width: 173px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 56px;
+}
+
+.footerx--accent .download {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 56px;
+  max-width: 255px;
+}
+
+.footerx--accent .download div {
+  height: 100%;
+  width: auto;
+  margin-bottom: 12px;
+  cursor: pointer;
+}
+
+.footerx--accent .download div img {
+  display: block;
+  width: 126px;
+  height: 60px;
+}
+
+.footerx--accent .socials {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin-bottom: 24px;
+  max-width: 160px;
+  cursor: pointer;
+}
+
+.footerx--accent .socials img {
+  display: block;
+  width: 24px;
+}
+
+.footerx--accent .socials img:hover {
+  opacity: 0.6;
+}
+
+.footerx--accent2 {
+  display: none;
+}
+
+.footer-y {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 256px;
+  justify-content: center;
+}
+
+.footer-y a {
+  color: var(--color-body);
+}
+
+.footer-y a:hover {
+  text-decoration: underline;
+}
+
+.footer-y ul {
+  display: flex;
+  flex: 1 1 25%;
+  flex-direction: column;
+  margin-right: 24px;
+  margin-left: 24px;
+  margin-bottom: 24px;
+  width: auto;
+}
+
+.footer-y ul li div {
+  width: 100%;
+  height: 100%;
+  padding-bottom: 16px;
+}
+
+.footer-y ul li div span {
+  font-size: 1rem;
+}
+
+.footer2 a {
+  color: var(--color-body);
+}
+
+.footer2 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 8px;
+}
+
+.footer2 .copyright {
+  display: flex;
+  margin-bottom: 16px;
+  width: auto;
+}
+
+.footer2 .terms {
+  display: flex;
+  width: auto;
+}
+
+.footer2 span {
+  font-size: 0.75rem;
+}
+
+.footer3 {
+  display: flex;
+  align-items: center;
+}
+
+.footer3__content {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.footer3__content .interest {
+  font-size: 12px;
+  letter-spacing: -0.01em;
+  margin-right: 20px;
+  text-align: left;
+  color: rgb(71, 103, 136);
+}
+
+.footer3__content .footer3-ul {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+.footer3__content .footer3-ul .footer3-li {
+  display: inline-block;
+  margin-right: 20px;
+  margin-bottom: 6px;
+}
+
+.footer3__content .footer3-ul .footer3-li a {
+  color: rgb(71, 103, 136);
+  font-size: 12px;
+}
+
+.footer3__content .footer3-ul .footer3-li a:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 992px) {
+  .footer {
+    padding-top: 109.91px;
+  }
+
+  .footerx p {
+    font-size: 0.85rem;
+  }
+
+  .footerx--accent .dropdown {
+    margin-top: 40px;
+  }
+
+  .footerx--accent .socials {
+    margin-left: 0;
+    padding-left: 0;
+  }
+
+  .footer-y {
+    margin-left: 112px;
+  }
+
+  .footer-y ul {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+
+  .footer-y ul li div span {
+    font-size: 0.85rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+  }
+
+  .footerx {
+    width: 100%;
+  }
+
+  .footerx p {
+    font-size: 0.85rem;
+  }
+
+  .footer-y {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+  .footerx--accent1 {
+    display: none;
+  }
+
+  .footerx--accent2 {
+    display: block;
+    width: 100%;
+  }
+
+  .footerx--accent2 .dropdown {
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+
+  .footerx--accent2 .download {
+    flex-direction: column;
+    max-width: 100%;
+  }
+
+  .footerx--accent2 .download div {
+    width: 100%;
+    cursor: pointer;
+  }
+
+  .footerx--accent2 .download div img {
+    display: block;
+    width: 100%;
+    height: 60px;
+  }
+
+  .footer2 {
+    margin-bottom: 40px;
+  }
+
+  .footer3__content {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .footer3__content .interest {
+    margin-bottom: 10px;
+    width: 100%;
+  }
+
+  .footer3-ul {
+    display: block;
+    width: 100%;
+  }
+
+  .footer3-li {
+    margin-right: 0px;
+    display: block;
+  }
+}
+/* End of Footer */
