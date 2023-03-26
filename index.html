@@ -10,84 +10,108 @@
     <title>Document</title>
   </head>
   <body>
-    <div class="language-switcher">
-      <div class="language-switcher__container">
-        <div class="language">
-          <div class="language__box">
-            <div class="language__box-box">
-              <svg
-                alt="Globe"
-                aria-hidden="true"
-                class="sc-7o87j-4 iPUfVB"
-                width="48"
-                height="48"
-                viewBox="0 0 48 48"
-                fill="none"
-              >
-                <path
-                  d="M24 44C35.0457 44 44 35.0457 44 24C44 12.9543 35.0457 4 24 4C12.9543 4 4 12.9543 4 24C4 35.0457 12.9543 44 24 44Z"
-                  stroke="currentColor"
-                  stroke-width="3"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                ></path>
-                <path
-                  d="M4 24H44"
-                  stroke="currentColor"
-                  stroke-width="3"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                ></path>
-                <path
-                  d="M24 4C29.0026 9.47671 31.8455 16.5841 32 24C31.8455 31.4159 29.0026 38.5233 24 44C18.9974 38.5233 16.1545 31.4159 16 24C16.1545 16.5841 18.9974 9.47671 24 4V4Z"
-                  stroke="currentColor"
-                  stroke-width="3"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                ></path>
-              </svg>
-              <span>English</span>
-              <svg
-                class="sc-1d2e9wf-0 fxTgfB sc-1d4juf2-1 eBUBmy"
-                viewBox="0 0 13 7"
-                fill="none"
-                color="black"
-                version="1.1"
-                xmlns="http://www.w3.org/2000/svg"
-                xmlns:xlink="http://www.w3.org/1999/xlink"
-              >
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M5.8434 0.256281C6.20603 -0.0854279 6.79397 -0.0854278 7.1566 0.256281L12.728 5.50628C13.0907 5.84799 13.0907 6.40201 12.728 6.74372C12.3654 7.08543 11.7775 7.08543 11.4148 6.74372L6.5 2.11244L1.58517 6.74372C1.22254 7.08543 0.634602 7.08543 0.271972 6.74372C-0.0906581 6.40201 -0.0906571 5.84799 0.271973 5.50628L5.8434 0.256281Z"
-                  fill="currentColor"
-                ></path>
-              </svg>
+    <nav class="nav">
+      <div class="logo">
+        <img src="images/calendly-logo.svg" alt="" class="logo-img" />
+      </div>
+      <ul class="nav-links">
+        <li class="nav-list nav__heading"><a href="#">Product</a></li>
+        <div id="solutions">
+          <div class="collapsible collapsible--expanded">
+            <header class="collapsible__header nav-header">
+              <li class="nav-list-arrow nav__heading">
+                <a href="#">Solutions</a>
+              </li>
+              <img
+                src="images/arrow-expander-right-svgrepo-com.svg"
+                alt=""
+                class="collapsible__image"
+              />
+            </header>
+            <div class="collapsible__content nav-list__content">
+              <ul class="nav-list-ul">
+                <li>
+                  <div>
+                    <a href="#">Sales</a>
+                    <img
+                      src="images/arrow-expander-right-svgrepo-com.svg"
+                      alt=""
+                    />
+                  </div>
+                </li>
+                <li>
+                  <div>
+                    <a href="#">Marketing</a>
+                    <img
+                      src="images/arrow-expander-right-svgrepo-com.svg"
+                      alt=""
+                    />
+                  </div>
+                </li>
+                <li>
+                  <div>
+                    <a href="#">Customer Success</a>
+                    <img
+                      src="images/arrow-expander-right-svgrepo-com.svg"
+                      alt=""
+                    />
+                  </div>
+                </li>
+                <li>
+                  <div>
+                    <a href="#">Recruiting</a>
+                    <img
+                      src="images/arrow-expander-right-svgrepo-com.svg"
+                      alt=""
+                    />
+                  </div>
+                </li>
+                <li>
+                  <div>
+                    <a href="#">Revenue Operations</a>
+                    <img
+                      src="images/arrow-expander-right-svgrepo-com.svg"
+                      alt=""
+                    />
+                  </div>
+                </li>
+                <li>
+                  <div>
+                    <a href="#">Education</a>
+                    <img
+                      src="images/arrow-expander-right-svgrepo-com.svg"
+                      alt=""
+                    />
+                  </div>
+                </li>
+                <li>
+                  <div>
+                    <a href="#">Information Technology</a>
+                    <img
+                      src="images/arrow-expander-right-svgrepo-com.svg"
+                      alt=""
+                    />
+                  </div>
+                </li>
+              </ul>
             </div>
-            <ul class="language-ul">
-              <li>
-                <div>
-                  <a href="#">English</a>
-                  <img src="images/Tick.svg" alt="" />
-                </div>
-              </li>
-              <li>
-                <div><a href="#">Francais</a></div>
-              </li>
-              <li>
-                <div><a href="#">Espanol</a></div>
-              </li>
-              <li>
-                <div><a href="#">Deutsch</a></div>
-              </li>
-              <li>
-                <div><a href="#">Portugues</a></div>
-              </li>
-            </ul>
           </div>
         </div>
+        <li class="nav-list nav__heading"><a href="#">Teams & Companies</a></li>
+        <li class="nav-list nav__heading"><a href="#">Pricing</a></li>
+        <li class="nav-list nav__heading"><a href="#">Resources</a></li>
+      </ul>
+      <div class="nav-log-in">
+        <img class="nav-icon" src="images/login-icon.svg" alt="" />
+        <a href="#">Log In</a>
+        <button class="btn btn--primary nav-btn">Get started</button>
+        <div class="burger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
       </div>
-    </div>
+    </nav>
     <script src="index.js"></script>
   </body>
 </html>
